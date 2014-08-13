@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JappUI", "JappUi\JappUI.csproj", "{4E50ACCE-1C7C-4A8F-9061-6030FC362015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Japp", "Japp\Japp.csproj", "{AEF5F8D2-2DEF-4646-A3C7-E26751DBC538}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Japp\\Japp.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = Japp\\
+		SccProjectUniqueName2 = JappUi\\JappUI.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = JappUi\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E50ACCE-1C7C-4A8F-9061-6030FC362015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E50ACCE-1C7C-4A8F-9061-6030FC362015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E50ACCE-1C7C-4A8F-9061-6030FC362015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E50ACCE-1C7C-4A8F-9061-6030FC362015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF5F8D2-2DEF-4646-A3C7-E26751DBC538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF5F8D2-2DEF-4646-A3C7-E26751DBC538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF5F8D2-2DEF-4646-A3C7-E26751DBC538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF5F8D2-2DEF-4646-A3C7-E26751DBC538}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
