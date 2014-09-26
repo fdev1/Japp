@@ -111,6 +111,7 @@ namespace Japp
         {
 			try
 			{
+				Console.WriteLine (portName);
 				this.serialPort.PortName = portName;
 				this.serialPort.Open();
 				//this.serialPort.DtrEnable = true;
@@ -129,6 +130,8 @@ namespace Japp
 			}
 			catch (Exception ex)
 			{
+				Debug.WriteLine (ex.Message);
+				Console.WriteLine(ex.Message);
 				throw new CommException(ex);
 			}
         }
